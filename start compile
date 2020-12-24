@@ -1,0 +1,21 @@
+在linphone-sdk下新建build文件夹，打开cmake图形界面，source code选择linphone-sdk， build binaries选择linphone-sdk/build，点击configure选择vs版本和编译平台，最后点击generate
+
+去除警告是为错误
+修改linphone-sdk下所有cmakelist.txt中/WX为/WX-  
+修改\bctoolbox\cmake下所有BcToolboxCMakeUtils.cmake中/WX为/WX- 
+
+去除int_fast32_t、uint_fast32_t、int_fast16_t、uint_fast16_t重复定义
+屏蔽bcmatroska2\corec\corec\portab.h中对应行。这四个屏蔽后会出现int_fast32_t、uint_fast32_t、int_fast16_t、uint_fast16_t未定义，将未定义的int_fast32_t、uint_fast32_t、
+int_fast16_t、uint_fast16_t改成对应的signed __int64或unsigned __int64
+
+去除GWLP_USERDATA未定义
+修改mediastreamer2\src\videofilters\drawdib-display.c下GWLP_USERDATA为-21
+
+若vpx、openh264、ffmpeg编译未通过查看WORK/Desktop下的EP_vpx.log EP_ffmpeg.log EP_openh264.log查看报错并处理
+
+
+linphone-sdk默认支持windows x86 如果要生成x64的sdk需要修改cmake-builer\builders下的ffmpeg.cmake vpx.cmake openh264.cmake ,cmake-builder\builders\ffmpeg\postinstall.cmake也要
+修改
+
+可以使用vs2017或者cmd进行编译，使用vs进行项目生成的话，容易出现文件编码的问题，导致无法生成object文件的错误，因此直接使用cmake命令进行编译 
+cmake --build . --target sdk --config RelWithDebInfo -- /maxcpucount /nodeReuse:true /p:TrackFileAccess=false
