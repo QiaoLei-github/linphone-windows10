@@ -1,0 +1,79 @@
+﻿  Mphone.cpp
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(96): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(128): warning C4996: 'linphone_core_terminate_call': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1387): note: 参见“linphone_core_terminate_call”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(141): warning C4996: 'linphone_core_transfer_call': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1255): note: 参见“linphone_core_transfer_call”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(155): warning C4996: 'linphone_core_pause_call': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1431): note: 参见“linphone_core_pause_call”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(180): warning C4996: 'linphone_core_resume_call': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1452): note: 参见“linphone_core_resume_call”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(216): warning C4996: 'linphone_core_accept_call': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1331): note: 参见“linphone_core_accept_call”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(217): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(237): warning C4996: 'linphone_core_transfer_call_to_another': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1275): note: 参见“linphone_core_transfer_call_to_another”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(239): warning C4996: 'linphone_core_terminate_call': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1387): note: 参见“linphone_core_terminate_call”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(259): warning C4996: 'linphone_core_terminate_call': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1387): note: 参见“linphone_core_terminate_call”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(269): warning C4996: 'linphone_core_destroy': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(4444): note: 参见“linphone_core_destroy”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(290): warning C4996: 'linphone_core_terminate_call': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1387): note: 参见“linphone_core_terminate_call”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(300): warning C4996: 'linphone_core_destroy': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(4444): note: 参见“linphone_core_destroy”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(348): warning C4996: 'LCSipTransports': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\types.h(998): note: 参见“LCSipTransports”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(429): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(450): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(456): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(462): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(478): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(503): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(507): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(508): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(509): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(510): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(511): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(513): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(583): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(585): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(608): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(610): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(690): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(692): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(720): warning C4996: 'linphone_core_set_log_level': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(944): note: 参见“linphone_core_set_log_level”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(721): warning C4996: 'linphone_core_set_log_handler': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(926): note: 参见“linphone_core_set_log_handler”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(732): warning C4996: 'linphone_core_new': 被声明为已否决
+  d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\include\linphone\core.h(1047): note: 参见“linphone_core_new”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(750): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\mphone\mphone.cpp(317): warning C4715: “Proc”: 不是所有的控件路径都返回值
+  Mphone.vcxproj -> D:\linphone-desktop-release-4.2\build64\linphone-sdk\desktop\mytest1\Mphone\..\..\bin\Mphone.exe
